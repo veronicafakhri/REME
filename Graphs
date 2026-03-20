@@ -1,0 +1,9 @@
+import pandas as pd
+
+
+url_csv = "https://raw.githubusercontent.com/jandesneiges/Recherche/refs/heads/main/snb-data-BSTA%40SNB.MONA_US.BIL.AKT.HYP-fr-selection-20260223_0949.csv?token=GHSAT0AAAAAADX6AEDJ7TCAXNHSSFYXKXPA2NX4FRA"
+
+
+df = pd.read_csv(url_csv)
+
+df.head(10)
